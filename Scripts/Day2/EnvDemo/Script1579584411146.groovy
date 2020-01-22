@@ -15,13 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Day2/LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Maintenance'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Maintenance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Recruitment'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Recruitment'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Leave'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/b_Leave'))
 
 WebUI.closeBrowser()
 

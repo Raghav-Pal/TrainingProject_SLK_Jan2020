@@ -17,5 +17,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Make Appointment'))
 

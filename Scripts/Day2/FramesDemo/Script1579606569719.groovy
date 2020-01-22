@@ -17,11 +17,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://selenium.dev/selenium/docs/api/java/')
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/a_comthoughtworksselenium'))
+WebUI.click(findTestObject('WEB/Page_Overview/a_comthoughtworksselenium'))
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/a_BrowserConfigurationOptions'))
+WebUI.click(findTestObject('WEB/Page_Overview/a_BrowserConfigurationOptions'))
 
-WebUI.click(findTestObject('Object Repository/Page_BrowserConfigurationOptions/h2_Class BrowserConfigurationOptions'))
+WebUI.click(findTestObject('WEB/Page_BrowserConfigurationOptions/h2_Class BrowserConfigurationOptions'))
 
 WebUI.closeBrowser()
 

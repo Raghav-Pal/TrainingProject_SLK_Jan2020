@@ -87,6 +87,6 @@ class MyKW2 {
 
 	@Keyword
 	def getText(){
-		def text = WebUI.getText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+		def text = WebUI.getText(findTestObject('WEB/Page_OrangeHRM/input_Password_Submit'))
 	}
 }
