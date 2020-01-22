@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'A
 
 WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.takeScreenshot()
 
